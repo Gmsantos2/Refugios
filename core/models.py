@@ -10,23 +10,27 @@ class Shelter(models.Model):
 
 
 class Visit(models.Model):
-
-    pass
+    shelter = models.IntegerField()
+    date = models.DateTimeField()
 
 
 class Specie(models.Model):
-
-    pass
+    type_specie = models.CharField(max_length=255)
+    habitat = models.CharField(max_length=255)
+    endangered = models.BooleanField()
 
 
 class Rol(models.Model):
-
-    pass
+    description = models.CharField(max_length=255)
 
 
 class Person(models.Model):
-
-    pass
+    name = models.CharField(max_length=255)
+    second_name = models.CharField(max_length=255)
+    last_name = models.CharField(max_length=255)
+    second_last_name = models.CharField(max_length=255)
+    contact_number = models.CharField(max_length=255)
+    age = models.IntegerField()
 
 
 class Tour(models.Model):
