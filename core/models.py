@@ -3,6 +3,8 @@ from django.db import models
 # Create your models here.
 
 class Shelter(models.Model):
+    """
+    """
 
     meters = models.IntegerField()
     city = models.CharField(max_length=255)
@@ -10,20 +12,32 @@ class Shelter(models.Model):
 
 
 class Visit(models.Model):
+    """
+    """
+
     shelter = models.IntegerField()
     date = models.DateTimeField()
 
 class Specie(models.Model):
+    """
+    """
+
     type_specie = models.CharField(max_length=255)
     habitat = models.CharField(max_length=255)
     endangered = models.BooleanField()
 
 
 class Rol(models.Model):
+    """
+    """
+
     description = models.CharField(max_length=255)
 
 
 class Person(models.Model):
+    """
+    """
+
     name = models.CharField(max_length=255)
     second_name = models.CharField(max_length=255)
     last_name = models.CharField(max_length=255)
@@ -82,7 +96,7 @@ class Employee(models.Model):
     """
     """
 
-    salary = models.DecimalField()
+    salary = models.DecimalField(max_digits=10, decimal_places=2)
     time_enter = models.CharField(max_length=100,
                                    blank=True,
                                    null=True)
