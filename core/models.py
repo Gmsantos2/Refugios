@@ -13,7 +13,6 @@ class Visit(models.Model):
     shelter = models.IntegerField()
     date = models.DateTimeField()
 
-
 class Specie(models.Model):
     type_specie = models.CharField(max_length=255)
     habitat = models.CharField(max_length=255)
