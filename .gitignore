@@ -108,3 +108,7 @@ venv.bak/
 
 # Development env
 media
+
+# Ignoring the migrations while we are in development
+migrations/
+core/migrations/
