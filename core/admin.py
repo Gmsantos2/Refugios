@@ -1,3 +1,7 @@
+"""
+Aqui se registran los modelos para que puedan ser tratados en el dashboard de administracion
+de django
+"""
 from django.contrib import admin
 
 # Register your models here.

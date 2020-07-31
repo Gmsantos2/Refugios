@@ -1,3 +1,6 @@
+"""
+Configuraciones de la aplicacion
+"""
 from django.apps import AppConfig
 
 

@@ -1,3 +1,6 @@
+"""
+Modelos que representan la tabal en la base de datos
+"""
 from django.db import models
 
 # Create your models here.

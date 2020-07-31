@@ -1,5 +1,10 @@
+"""
+Se registran las rutas de la aplicacion. En este caso usamos el módulo 'router'
+de la libreria djangorestframework para que genere las url correspondientes 
+para cada modelo automaticamente
+"""
+
 # Django
-from django.conf.urls.static import static
 from django.conf import settings
 from django.urls import path, include
 
