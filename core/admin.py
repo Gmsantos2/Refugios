@@ -4,15 +4,15 @@ from django.contrib import admin
 
 
 # Importar modelos
-from core.models import (Shelter)
-from core.models import (Visit)
-from core.models import (Specie)
-from core.models import (Rol)
-from core.models import (Person)
-from core.models import (Tour)
-from core.models import (Single)
-from core.models import (Single_Tour)
-from core.models import (Employee)
+from core.models import (Shelter,
+                        Visit,
+                        Specie,
+                        Rol,
+                        Person,
+                        Tour,
+                        Single,
+                        Single_Tour,
+                        Employee)
 
 
 # Registrar los modelos
