@@ -40,10 +40,11 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
     # Aplicaciones propias
-    'core',                     # App que contiene todos los modelos
+    'core',                     # App que contiene todos los modelos y los endpoints de los modelos en formato json
 
     # Aplicaciones de terceros
     'rest_framework',           # App que permite constuir los servicios de mejor manera
+    'import_export',            # App que permite descargar la información en distintos formatos
 ]
 
 MIDDLEWARE = [
