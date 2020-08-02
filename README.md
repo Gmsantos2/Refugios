@@ -1,5 +1,48 @@
+# Universidad Técnica Particular de Loja
+# Base de Datos Avanzada
+# Laboratorio 2.2
+
+# Grupo: Wuhan
+
+### Integrantes:
+- Gerson Santos  
+- Antse Cáceres  
+- Renato Balcázar
+ 
+
+**Enunciado:**
+
+Desarrollar una aplicación que conecte a base de datos y permita su descarga en distintos formatos. Pueden utilizar la base de datos creada en el primer bimestre y sobre ella desarrollar la aplicación.
+
+La aplicación debe permitir la descarga de datos al menos en dos formatos distintos.
+
+Como entregables deben presentar un documento que muestre el esquema de base de datos utilizado y luego muestre las partes de código que emplean para la descarga de los datos. Posteriormente se anunciará la fecha de presentación de la aplicación.
+
+
 # Refugios
 Laboratorio base de datos avanzada (control de refugios a nivel nacional) en diferentes formatos
+
+## Esquema de base de datos
+
+
+[https://github.com/Gmsantos2/Refugios/blob/master/DB_Lab_2_2.png](https://github.com/Gmsantos2/Refugios/blob/master/DB_Lab_2_2.png)
+
+## Descarga de los datos
+Para la descarga de los datos, nos ayudamos de la librería [django-import-export](https://django-import-export.readthedocs.io/en/latest/). La cuál nos permite descargar la información en los siguientes formatos:
+- csv
+- xls
+- xlsx
+- tsv
+- ods
+- json
+- yaml
+- html
+
+.
+.
+.
+.
+
 
 
 ## Requirements
